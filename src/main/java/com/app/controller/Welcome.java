@@ -13,4 +13,11 @@ public class Welcome {
 		return "welcome ashok it....!";
 	}
 
+	@GetMapping("/hi")
+	
+public String hiMsg()
+	
+	{
+		return "welcome hi msg....!";
+	}
 }
